@@ -10,6 +10,7 @@ body {
     height: auto; 
     margin-left: -15px;
     margin-top: -60px;
+  
     
 }
 
@@ -29,7 +30,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #242e7387;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
+    box-shadow: 9px 7px 9px 3px rgb(131 11 11 / 40%);
+    color: #679dd0;
 }
 
 .login-box input[type="text"],
@@ -57,9 +60,24 @@ body {
     background-color: #0056b3;
 }
 
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 350%;
+    padding: 1px;
+    border: none;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    margin-left: -300px;
+    border-radius: 25px;
+    box-shadow: 14px 20px 9px 3px rgb(131 11 11 / 40%);
+    font-size: medium;
+}
 
 
 
 
 
-/****************************************************/
+
+
