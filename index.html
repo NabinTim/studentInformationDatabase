@@ -1,3 +1,6 @@
+<?php 
+include("connection.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,39 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Login</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    
-    <style>
-        /* Add CSS for mobile devices */
-        @media only screen and (max-width: 600px) {
-            .login-box {
-                width: 90%;
-                margin: 0 auto;
-            }
-            input[type="text"] {
-                width: 100%;
-            }
-        }
-    </style>
 </head>
 <body>
 <div class="top">
     <img src="georgian.png" class="small-image">
 </div>
 
-<div class="login-box">
-    <h2>New Registered Students</h2>
-    <form action="login.php" method="post">
-        <input type="text" name="username" placeholder="First and Last Name of Student" required>
-        <input type="text" name="number" placeholder="Guardians Number" required>
-        <input type="text" name="mail" placeholder="Guardians E-Mail" required>
-        <input type="text" name="address" placeholder="Guardians Address" required>
-        <input type="text" name="gname" placeholder="Guardians Name" required>
-        <input type="submit" name = "submit" value="Submit">
-        
-    </form>
-</div>
-<div class="footer">
-    <p>Welcome to Georgian College's student registration portal. Established in 2001, Georgian College is dedicated to providing quality education and fostering student success. For inquiries or assistance, please contact us at timalsinanabin41@gmail.com or +1 (437) 663-0935. We look forward to welcoming you to our vibrant academic community.</p>
-</div>
 
+    <div class="login-box">
+        <h2>New Registered Students</h2>
+        <form action="login.php" method="post">
+            <input type="text" name="username" placeholder="First and Last Name of Student" required>
+            <input type="text" name="number" placeholder="Guardians Number" required>
+            <input type="text" name="mail" placeholder="Guardians E-Mail" required>
+            <input type="text" name="address" placeholder="Guardians Address" required>
+            <input type="text" name="gname" placeholder="Guardians Name" required>
+            <input type="submit" name = "submit" value="Submit">
+        </form>
+    </div>
+    <p style="text-align: center; margin-top: 20px;">Welcome to Georgian College's student registration portal. Established in 2001, Georgian College is dedicated to providing quality education and fostering student success. For inquiries or assistance, please contact us at timalsinanabin41@gmail.com or +1 (437) 663-0935. We look forward to welcoming you to our vibrant academic community.</p>
+</body>
 </html>
