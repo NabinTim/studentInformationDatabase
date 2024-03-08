@@ -1,12 +1,15 @@
+
+@charset "UTF-8";
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(#51a81e, #3f22cd); 
     width: 300px;
     margin: 100px auto;
+    
 }
 
 .small-image {
-    width: 350px; 
+    width: 340px; 
     height: auto; 
     margin-left: -15px;
     margin-top: -60px;
@@ -16,12 +19,14 @@ body {
 
 
 .login-box {
-    width: 300px;
+    width: 250px;
     margin: 100px auto;
     background: linear-gradient(#51a81e8a, #3f22cd70); 
     padding: 20px;
     border-radius: 25px;
     box-shadow: 14px 20px 9px 3px rgb(131 11 11 / 40%);
+    top: 80%;
+    margin-top: 25px;
 }
 
 .login-box h2 {
