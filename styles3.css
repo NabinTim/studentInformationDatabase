@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+/* Header styles */
+body{
+    display: block;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#51a81e, #3f22cd) no-repeat fixed;
+    background-size: cover; /* Ensures the background covers the entire page */
+    margin-bottom: 3.0%;
+}
+
+
+.header {
+    text-align: left;
+    margin-top: 3%; /* Example: Adjust as needed */
+    margin-left: 2%;
+}
+.header-image {
+    width: 200px; 
+    height: auto; 
+    margin-top: -100px;
+}
+
+/* Content styles */
+.content {
+    width: 50%; /* Example: Adjust as needed */
+    margin: 10% auto; /* Example: Adjust as needed */
+}
+
+/* Login box styles */
+.login-box {
+    width: 50%; /* Example: Adjust as needed */
+    margin: 10% auto; /* Example: Adjust as needed */
+    background: linear-gradient(#51a81e8a, #3f22cd70); 
+    padding: 30px; /* Example: Adjust as needed */
+    border-radius: 15px; /* Example: Adjust as needed */
+    box-shadow: 2vw 3vw 1.5vw 0.5vw rgba(131, 11, 11, 0.4); /* Example: Adjust as needed */
+    top: 80%; /* This might be tricky to convert to a percentage; consider using another unit like 'vh' */
+    margin-top: 5vh; /* Example: Adjust as needed */
+    
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 1cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #242e7387;
+    padding: 10px;
+    margin-top: auto;
+    border-radius: 25px;
+    box-shadow: 9px 7px 9px 3px rgb(131 11 11 / 40%);
+    color: #679dd0;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid #000dff33;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00eb5e80;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw; /* Example: Adjust as needed */
+    padding: 0.7vw; /* Example: Adjust as needed */
+    border: none;
+    text-align: center;
+    box-shadow: 1vw 1.5vw 0.75vw 0.25vw rgba(131, 11, 11, 0.4); /* Example: Adjust as needed */
+    background: #443838b3;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-image {
+    width: 100px; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Example spacing */
+    margin-top: 0.5%;
+}
+
+.header-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-content ul li {
+    display: inline;
+    margin-right: 10px; /* Example spacing between links */
+}
+
+.header-content ul li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+ul {
+    list-style-type: disc;
+    margin: 1em 0;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    justify-content: space-around;
+}
