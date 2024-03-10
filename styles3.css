@@ -8,14 +8,14 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient(#51a81e, #3f22cd) no-repeat fixed;
-    background-size: cover; /* Ensures the background covers the entire page */
+    background-size: cover; 
     margin-bottom: 3.0%;
 }
 
 
 .header {
     text-align: left;
-    margin-top: 3%; /* Example: Adjust as needed */
+    margin-top: 3%; 
     margin-left: 2%;
 }
 .header-image {
@@ -26,20 +26,20 @@ body{
 
 /* Content styles */
 .content {
-    width: 50%; /* Example: Adjust as needed */
-    margin: 10% auto; /* Example: Adjust as needed */
+    width: 50%; 
+    margin: 10% auto; 
 }
 
 /* Login box styles */
 .login-box {
-    width: 50%; /* Example: Adjust as needed */
-    margin: 10% auto; /* Example: Adjust as needed */
+    width: 50%; 
+    margin: 10% auto; 
     background: linear-gradient(#51a81e8a, #3f22cd70); 
-    padding: 30px; /* Example: Adjust as needed */
-    border-radius: 15px; /* Example: Adjust as needed */
-    box-shadow: 2vw 3vw 1.5vw 0.5vw rgba(131, 11, 11, 0.4); /* Example: Adjust as needed */
-    top: 80%; /* This might be tricky to convert to a percentage; consider using another unit like 'vh' */
-    margin-top: 5vh; /* Example: Adjust as needed */
+    padding: 30px; 
+    border-radius: 15px;
+    box-shadow: 2vw 3vw 1.5vw 0.5vw rgba(131, 11, 11, 0.4); 
+    top: 80%; 
+    margin-top: 5vh;
     
 }
 
