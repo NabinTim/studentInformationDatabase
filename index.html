@@ -4,38 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Login</title>
-    <link rel="stylesheet" type="text/css" href="styles3.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <div class="header-content">
-        <img src="georgian.png" class="header-image">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <div class="top">
+        <img src="georgian.png" class="small-image">
     </div>
-</header>
 
-
-<div class="content">
     <div class="login-box">
-        <h2>Login as administrator</h2>
-        <form action="main.php" method="post">
+        <h2>New Registered Students</h2>
+        <form action="login.php" method="post">
             <input type="text" name="username" placeholder="First and Last Name of Student" required>
             <input type="text" name="number" placeholder="Guardians Number" required>
-            <input type="submit" name = "submit" value="Submit">
+            <input type="text" name="mail" placeholder="Guardians E-Mail" required>
+            <input type="text" name="address" placeholder="Guardians Address" required>
+            <input type="text" name="gname" placeholder="Guardians Name" required>
+            <input type="submit" name="submit" value="Submit">
         </form>
     </div>
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11400.519272243571!2d-79.68246575410626!3d44.409981762354896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa3723e3232f1%3A0xe6be031a81155c65!2sGeorgian%20College!5e0!3m2!1sen!2sca!4v1710041238443!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-<footer class="footer">
-    This is the footer content.
-</footer>
-
+    <footer class="footer">
+        This is the footer content.
+    </footer>
 </body>
 </html>
