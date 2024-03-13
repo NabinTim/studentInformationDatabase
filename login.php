@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
     $address = $_POST['address'];
     $guardiansname = $_POST['gname'];
 
-    // Check if the username and number combination doesn't already exist
+    // Check if the username and number combination doesn't already exist or not here
     $sql_check = "SELECT * FROM information WHERE Name = '$username' AND Number = '$number'";
     $result_check = mysqli_query($conn, $sql_check);
     $count = mysqli_num_rows($result_check);
